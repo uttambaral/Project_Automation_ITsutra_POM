@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e07ba952-38f4-45be-a0be-f2d7b69c0006" name="Default Changelist" comment="" />
+    <list default="true" id="e07ba952-38f4-45be-a0be-f2d7b69c0006" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BDD/Features/StudentManagement.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BDD/Runner/CucumberBdd_Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BDD/StepsDef/StudentDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/StudentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/StudentsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Common/CommonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Common/CommonPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Common/HeaderPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Common/HeaderPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/StudentsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/StudentsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test/TestHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/TestStudentsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test/TestStudentsPage.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -22,17 +51,56 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/BDD" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\iot\IdeaProjects\Project_Automation_ITsutra_POM\src\test\java\BDD" />
       <recent name="C:\JWS\Automation_ITSutra_Project_POM" />
       <recent name="C:\JWS\Automation_ITSutra_Project_POM\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestStudentsPage (1)">
+  <component name="RunManager" selected="Cucumber java.Scenario: Verify Create Student">
+    <configuration name="Feature: StudentManagement" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/BDD/Features/StudentManagement.feature" />
+      <option name="GLUE" value="BDD.StepsDef" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Project_Automation_ITsutra_POM" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: StudentManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify Create Student" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/BDD/Features/StudentManagement.feature" />
+      <option name="GLUE" value="BDD.StepsDef" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Project_Automation_ITsutra_POM" />
+      <option name="NAME_FILTER" value="^Verify Create Student$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify Create Student$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Create Student" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestStudentsPage (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ITSutraAutomation" />
       <extension name="coverage">
@@ -67,8 +135,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestStudentsPage.verifyAddStudents" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project_Automation_ITsutra_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestStudentsPage" />
+      <option name="METHOD_NAME" value="verifyAddStudents" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Verify Create Student" />
+        <item itemvalue="TestNG.TestStudentsPage.verifyAddStudents" />
+        <item itemvalue="Cucumber java.Feature: StudentManagement" />
         <item itemvalue="TestNG.TestStudentsPage (1)" />
         <item itemvalue="TestNG.TestStudentsPage" />
       </list>
@@ -97,6 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578935320935</updated>
       <workItem from="1578935324278" duration="506000" />
+      <workItem from="1582644789463" duration="14009000" />
     </task>
     <servers />
   </component>
@@ -104,21 +194,82 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578935832785">
+    <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582644935895">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1582644935895" />
+    <state x="363" y="23" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1582652951089">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="23" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1366.728@0.0.1366.728" timestamp="1582652951089" />
+    <state x="803" y="146" key="#xdebugger.evaluate" timestamp="1582655495566">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="803" y="146" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1582655495566" />
+    <state width="418" height="438" key="DebuggerActiveHint" timestamp="1582656022442">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="418" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1582656022442" />
+    <state width="1323" height="83" key="GridCell.Tab.0.bottom" timestamp="1582675859319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1578935832785" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578935832785">
+    <state width="1323" height="83" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582675859319" />
+    <state width="1323" height="83" key="GridCell.Tab.0.center" timestamp="1582675859318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1578935832785" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578935832785">
+    <state width="1323" height="83" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582675859318" />
+    <state width="1323" height="83" key="GridCell.Tab.0.left" timestamp="1582675859318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1578935832785" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578935832785">
+    <state width="1323" height="83" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582675859318" />
+    <state width="1323" height="83" key="GridCell.Tab.0.right" timestamp="1582675859319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1578935832785" />
+    <state width="1323" height="83" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582675859319" />
+    <state width="637" height="281" key="GridCell.Tab.1.bottom" timestamp="1582664295854">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="281" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582664295854" />
+    <state width="637" height="281" key="GridCell.Tab.1.center" timestamp="1582664295853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="281" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582664295853" />
+    <state width="637" height="281" key="GridCell.Tab.1.left" timestamp="1582664295853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="281" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582664295853" />
+    <state width="637" height="281" key="GridCell.Tab.1.right" timestamp="1582664295853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="281" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582664295853" />
+    <state x="435" y="295" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1582646622423">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="295" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1582646622423" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BDD/StepsDef/StudentDefs.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BDD/StepsDef/StudentDefs.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Pages/StudentsPage.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
