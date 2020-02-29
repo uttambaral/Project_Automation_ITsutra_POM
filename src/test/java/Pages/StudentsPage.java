@@ -41,7 +41,7 @@ public class StudentsPage extends BasePage {
     @FindBy(xpath ="//input[@class='btn btn-default']")
     WebElement createButton;
 
-    @FindBy(xpath = "/html/body/div[2]/table/tbody/tr/td[1]")
+    @FindBy(xpath = "/html/body/div[2]/table/tbody/tr/td[2]")
     List<WebElement> eStudents;
 
     @FindBy(xpath ="//a[text()='»']")
