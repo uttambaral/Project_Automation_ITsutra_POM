@@ -5,10 +5,11 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/java/code/_8CucumberBDD/Features",
-        glue="code._8CucumberBDD.StepsDef"
+@CucumberOptions(features="src/test/java/BDD/Features",
+        glue="BDD/StepsDef",
+        tags = {"@Create"}
         )
 
-public class CucumberBdd_Runner {
+public class DeleteStudent_Runner {
 
 }

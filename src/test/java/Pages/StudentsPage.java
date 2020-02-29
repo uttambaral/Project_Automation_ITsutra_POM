@@ -45,7 +45,20 @@ public class StudentsPage extends BasePage {
     List<WebElement> eStudents;
 
     @FindBy(xpath ="//a[text()='»']")
-    WebElement nextButton;
+    List<WebElement> nextButton;
+
+    @FindBy(id="SearchString")
+    WebElement eSearchTextBox;
+
+    @FindBy(xpath = "//input[@type='submit']")
+    WebElement eSearchButton;
+
+    @FindBy(xpath="/html/body/div[2]/table/tbody/tr/td[4]/a[3]")
+    List<WebElement> eDeleteButtons;
+
+    @FindBy(xpath="//input[@type='submit']")
+    WebElement eDeleteConfirm;
+
 
     public StudentsPage() {
         PageFactory.initElements(wd,this);
@@ -58,6 +71,11 @@ public class StudentsPage extends BasePage {
     public void clickCreateNew(){
         lnkCreateNew.click();
     }
+
+    public void clickSearchButton(){
+        eSearchButton.click();
+    }
+
 
     public void verifyHeadingCreate(){
         cp.isElementDisplayed(headingCreate);
@@ -90,16 +108,48 @@ public class StudentsPage extends BasePage {
     public List<String> getAllStudentsNameList() throws InterruptedException {
         //System.out.println(students.size());
         //click till the next button is disabled , add all the pages records
+        //Note: if nextButton is not kept in array, it then we can't use the size(), and
+        //since for single element, only
         List<String> students=new ArrayList<>();
-        while(nextButton.isDisplayed()){
+        for(WebElement eStudent:eStudents) {
+            students.add(eStudent.getText());
+        }
+        while(nextButton.size() > 0 && nextButton.get(0).isDisplayed()==true){
+            nextButton.get(0).click();
             for(WebElement eStudent:eStudents) {
                 students.add(eStudent.getText());
             }
-            nextButton.click();
-            Thread.sleep(3000);
+           // Thread.sleep(3000);
         }
                 return students;
     }
+
+    public void enterNameSearchButton(String name) {
+        eSearchTextBox.sendKeys(name);
+    }
+
+    public void clickAllDeleteButtons() {
+        while (eDeleteButtons.size() > 0) {
+            clickDeleteButtons();
+            clickDeleteConfirm();
+        }
+    }
+
+    public void clickDeleteButtons(){
+        eDeleteButtons.get(0).click();
+    }
+
+    public int getDeteleteButtonsSize(){
+        return eDeleteButtons.size();
+    }
+    public void clickDeleteConfirm(){
+        eDeleteConfirm.click();
+    }
+
+    public void close(){
+        wd.quit();
+    }
+
 }
 
 
